@@ -14,8 +14,9 @@
     if (senha !== "ysa") {
         document.body.innerHTML = "<h1>Acesso negado 😢</h1>";
     }
-    </script>
-    <div class="center">
+    else{
+        document.body.innerHTML = `
+        <div class="center">
     </div>
     <div class="effect" id="effect"></div>
     <div class="gatito">
@@ -29,7 +30,9 @@
     </div>
     <p id="piada">Sim, eu fiz um site só pra dar uma cantada...<br>
         Não, não tenho idéia do q é flertar q nem uma pessoa normal
-    </p>
+    </p>`
+    }
+    </script>
 </body>
 <script src="script/script.js"></script>
 </html>
