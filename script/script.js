@@ -13,7 +13,7 @@ function playSound(){
         img.src = 'assets/pausa.png'
         audio.currentTime = 0;
         audio.loop = true;
-        music.volume = 0.3;
+        music.volume = 0.2;
         effect.style.display = 'flex';
         piada.style.display = 'flex';
         audio.play()
@@ -21,6 +21,8 @@ function playSound(){
     } else{
         img.src = 'assets/toque.png'
         audio.pause()
+        music.pause()
+        window.location.href = 'https://youtu.be/ErvgV4P6Fzc?si=TC0AVZitm_Q55Nbs&t=318';
         music.volume = 0.8;
         effect.style.display = 'none';
         piada.style.display = 'none';

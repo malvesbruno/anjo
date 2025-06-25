@@ -5,14 +5,14 @@
 
 .title{
     margin-bottom: 10em;
-    background: white;
+    background: #141414;
     position: relative;
     z-index: 2;
     padding: 1em;
     padding-inline: 2em;
     border-radius: 80px;
     backdrop-filter: blur(10px);
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 0.7em;
     text-align: center;
 }
