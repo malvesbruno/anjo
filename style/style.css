@@ -19,12 +19,10 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: pulse 1s  infinite linear alternate-reverse;
 }
 
 .gatito{
     position: absolute;
-    animation: moveAround 8s 1s infinite linear alternate-reverse;
 }
 
 .gatito img{
@@ -87,6 +85,9 @@ p{
     z-index: 1;
     display: none;
 }
+
+
+
 
 #piada{
     display: none;
