@@ -30,7 +30,7 @@ function playSound(){
         img.src = 'assets/toque.png'
         audio.pause()
         music.pause()
-        window.location.href = 'https://youtu.be/ErvgV4P6Fzc?si=TC0AVZitm_Q55Nbs&t=318';
+        window.location.href = 'https://youtu.be/wJ2lJru5xRo?si=Ss7q1IVdL50xi3Qc';
         music.volume = 0.8;
         body.style.background = "#141414";
         gatito.style.animation = "none";
